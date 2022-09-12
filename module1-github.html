@@ -2,19 +2,53 @@
     <head></head>
     <body>
         <h1>How to Create Your Own Web Page In GitHub Desktop</h1>
-        <h2>1-Download and install GitHub desktop</h2>
-        <p>
-            -Go to https://desktop.github.com/ and click the button of the system that you're working on to dowload GitHub desktop installer.<br>
-            -Once you've downloaded your installer open it and follow the instructions selecting all the default options.<br>
-            <img src="images/Module1-GitHub/download.jpg" width="50%" height="50%">
-        </p>
-        <h2>2-Create an account</h2>
-        <p>
-            -Open GitHub desktop by double clicking the icon on your desktop.<br>
-            -You'll have the optionto sign in or sign up for a new account. <br>
-            -Click on sign up to create a GitHub account, it will direct you to https://github.com where you can create your new account. 
-            -Go back to your GitHub desktop and sign in using the user ID and password you've just created.
-        </p>    
-        
+        <ol>
+            <h2><li>Create a directory on your local hard drive and add all your website files</li></h2>
+            <p>
+                <ul>
+                    <li>From Git Bash create a new directory to contain all your website files. We'll name it "porfolio" for this tutorial but you can name it anyname you like.<br>
+                    $mkdir </li>
+                    <li>Go to to the newly created directory.<br>
+                    $cd portfolio</li>
+                    <li>In the portfolio directory, create a new file "index.html" using the $touch command or any other editor. This will be the main page of your wesite.<br>
+                    -Create a new directory inside the porfolio directory to contain all images that will be used  on your website. <br>
+                    $mkdir images</li>
+                    <li>Place your profile pictre in your newly created images directory.</li>
+                </ul>               
+            </p>
+            <h2><li>Create a local repository on your hard drive using command line.</li></h2>
+            <p>
+                <ul>
+                    <li>Open Git Bash and go to the "portfolio" directory that you've created in step 1. </li>
+                    <li>Create a new repository using git init. <br>
+                    $ git init </li>
+                    <li>List all the files and directories on your portfolio directory and make sure it has the html file and images directory you've added in step 1.<br>
+                    $ -ls</li>
+                    <li>the files to you repository one at a time.<br>
+                    $ git add index.html<br>
+                    $ git add images/profile-picture.jpg </li> 
+                    <li>Commit your last changes to the repository.<br>
+                    $ git commit -m "Add index.html file and profile picture."</li>
+                </ul>
+            </p>
+            <h2> <li>Download and install GitHub desktop</li> </h2>
+            <p>
+                <ul>
+                <li>Go to https://desktop.github.com/ and click the button of the system that you're working on to dowload GitHub desktop installer.</li>
+                <li>Once you've downloaded your installer open it and follow the instructions selecting all the default options.<br>
+                <img src="images/Module1-GitHub/download.jpg" width="50%" height="50%"></li>
+                </ul>                
+            </p>
+            <h2><li>Create an account</li></h2>
+            <p>
+                <ul>
+                    <li>Open GitHub desktop by double clicking the icon on your desktop.</li>
+                    <li>You'll have the option to sign in or sign up for a new account. </li>
+                    <li>Click on n sign up to create a GitHub account, it will give you a link to https://github.com where you can create your new account.</li>
+                    <li>Go back to your GitHub desktop and sign in using the user ID and password you've just created.</li>
+                </ul>                
+            </p>             
+            <h2><li></li></h2>
+        </ol>  
     </body>
 </html>
