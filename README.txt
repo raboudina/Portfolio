@@ -1,4 +1,4 @@
-My is my motivation:
+The motivation of this project:
 -My  motivation is to build an impressive portfolio that shows what I am capable of in the field of web developemen and introduces me to the job market.
 
 What I learned so far:
