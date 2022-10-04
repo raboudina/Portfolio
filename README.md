@@ -1,4 +1,8 @@
+<<<<<<< HEAD:README.md
 My motivation:
+=======
+The motivation of this project:
+>>>>>>> 779de0b181b8fa691f84fc07ac494bf05e32456a:README.txt
 -My  motivation is to build an impressive portfolio that shows what I am capable of in the field of web developemen and introduces me to the job market.
 
 What I learned so far:
