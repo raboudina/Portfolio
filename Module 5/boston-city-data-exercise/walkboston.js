@@ -23,14 +23,14 @@ function renderTopSalaries(boston, container) {
   var topEmployees = allEmployees.sort((a, b) => b[1] - a[1]).slice(0, top);
 
   //Create a list of top empolyees names and salaries to be added to and HTML element
-  var html = '';
+  var html = '<h1>Top five earners:</h1>';
   for (let i = 0; i < top; i++) {
     html +=
       '<li class="top">' +
       '<h2>' +
       topEmployees[i][0] +
       '</h2>' +
-      '<h3>' +
+      '<h3>$' +
       topEmployees[i][1] +
       '</h3>';
   }
@@ -55,14 +55,14 @@ function renderTopEmployees(boston, container) {
   
   //Create a list of top empolyees names and salaries to be added to and HTML element
   const len = topEmployees.length;
-  var html = '';
+  var html = '<h1>List of employees who make more than 200K:</h1>';
   for (let i = 0; i < len; i++) {
     html +=
       '<li class="top">' +
       '<h2>' +
       topEmployees[i][0] +
       '</h2>' +
-      '<h3>' +
+      '<h3>$' +
       topEmployees[i][1] +
       '</h3>';
   }
@@ -71,5 +71,5 @@ function renderTopEmployees(boston, container) {
   container.innerHTML += '<ul id = "topEmployees">' + html + '</ul>';
 }
 
-//renderTopSalaries(boston, document.getElementById('container')); //step 1 solution
+renderTopSalaries(boston, document.getElementById('container')); //step 1 solution
 renderTopEmployees(boston, document.getElementById('container')); //step 2 solution
