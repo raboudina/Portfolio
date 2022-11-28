@@ -32,7 +32,7 @@ const sections = {
                 </h1>
                 <p class="lead pb-3">
                   My name is Radwa Aboudina. I am a current student in the MIT Full stack web development program. <br><br>
-                  <a href="./hashDemoBlockies/hashDemoBlockies.html" class="btn btn-outline-secondary btn-sm text-dark">
+                  <a href="./hashDemoBlockies/index.html" class="btn btn-outline-secondary btn-sm text-dark">
                     <i class="fas fa-arrow-right"></i> See your name in blockies
                   </a>
                 </p>              
